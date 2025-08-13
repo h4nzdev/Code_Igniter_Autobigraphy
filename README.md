@@ -1,4 +1,39 @@
-# CodeIgniter 4 Framework
+
+# CodeIgniter 4 Modern Portfolio (Autobiography)
+
+This project is a modern, visually appealing portfolio/autobiography web app built on top of CodeIgniter 4. It features a custom UI using Tailwind CSS and FontAwesome icons, and is organized into modular sections for easy maintenance and scalability.
+
+## Features
+
+- **Dark Mode UI**: Uses `bg-slate-800`/`bg-slate-900` for a sleek, modern look.
+- **FontAwesome Icons**: All emojis have been replaced with FontAwesome for a professional appearance.
+- **Tailwind CSS**: Rapid, utility-first styling for responsive design.
+- **Sectioned Layout**: Main page is composed of modular includes (see `app/Views/section/` and `app/Views/navigation/`).
+- **Easy Customization**: Update your info, projects, and skills by editing the relevant HTML partials.
+
+## Getting Started
+
+1. **Clone the repository** and set up your environment as you would for any CodeIgniter 4 project.
+2. **Install dependencies** (if any) and ensure your PHP version is 8.1 or higher.
+3. **Serve the app** (e.g., with XAMPP, MAMP, or built-in PHP server).
+4. **Edit your content**:
+	- Navigation: `app/Views/navigation/`
+	- Sections: `app/Views/section/`
+	- Main layout: `app/Views/welcome_message.php`
+
+## Author
+
+Hanz Magbal — [hanzhmagbal@gmail.com](mailto:hanzhmagbal@gmail.com)
+
+## Credits
+
+- [CodeIgniter 4](https://codeigniter.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [FontAwesome](https://fontawesome.com)
+
+---
+
+For more details on CodeIgniter 4, see the [official documentation](https://codeigniter.com/user_guide/).
 
 ## What is CodeIgniter?
 
